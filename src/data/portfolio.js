@@ -99,7 +99,7 @@ export const timeline = [
     text: 'Volonterka na South Eastern European Dialogue on Internet Governance događaju — podrška organizaciji aktivnosti, koordinaciji učesnika i rešavanju operativnih zahteva.',
   },
   {
-    year: '2024',
+    year: '2025',
     title: 'OpenIT konferencija',
     text: 'Volonterka na jednom od vodećih IT događaja u regionu, sa doprinosom organizaciji i nesmetanom odvijanju konferencijskih aktivnosti.',
   },
