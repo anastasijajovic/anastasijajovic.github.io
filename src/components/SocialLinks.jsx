@@ -1,0 +1,1 @@
+import {profile} from '../data/portfolio'; export default function SocialLinks(){return <div className="socials"><a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a><a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a></div>}

@@ -1,0 +1,2 @@
+import {profile} from '../data/portfolio'; import ContactCard from './ContactCard';
+export default function Contact(){return <section id="contact" className="contact"><p className="eyebrow">05 / Kontakt</p><h2>Hajde da napravimo<br/><em>nešto sjajno.</em></h2><p>Otvorena sam za nove prilike, saradnju i razgovor o zanimljivim idejama.</p><ContactCard/><a className="contact-github" href={profile.github} target="_blank" rel="noreferrer">Ili me pronađi na GitHub-u →</a></section>}

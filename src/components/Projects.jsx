@@ -1,0 +1,2 @@
+import {projects} from '../data/portfolio'; import SectionTitle from './SectionTitle'; import ProjectCard from './ProjectCard';
+export default function Projects(){return <section id="projects" className="section projects"><SectionTitle eyebrow="03 / Izabrani radovi" title="Od ideje do proizvoda." copy="Pogledaj projekte na kojima sam radila i pratite njihov razvoj na GitHub-u."/><div className="projects-list">{projects.map((project,index)=><ProjectCard project={project} index={index} key={project.title}/>)}</div></section>}

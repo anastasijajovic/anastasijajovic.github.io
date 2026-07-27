@@ -1,0 +1,1 @@
+import {useEffect,useState} from 'react'; export default function ScrollTop(){const[show,setShow]=useState(false);useEffect(()=>{const f=()=>setShow(scrollY>500);addEventListener('scroll',f);return()=>removeEventListener('scroll',f)},[]);return show&&<button className="scroll-top" onClick={()=>scrollTo({top:0,behavior:'smooth'})} aria-label="Nazad na vrh">↑</button>}

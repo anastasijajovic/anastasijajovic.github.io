@@ -1,0 +1,1 @@
+import {profile} from '../data/portfolio'; export default function HeroPhoto(){return <div className="photo-frame"><img src={profile.avatar} alt="Anastasija Jović"/><span className="orbit orbit-one"/><span className="orbit orbit-two"/><div className="photo-note">Open to<br/>opportunities</div></div>}

@@ -1,0 +1,2 @@
+import {skills} from '../data/portfolio'; import SectionTitle from './SectionTitle'; import SkillPill from './SkillPill';
+export default function Skills(){return <section id="skills" className="section skills-section"><SectionTitle eyebrow="02 / Tehnologije" title="Alati kojima gradim." copy="Konstantno učim i proširujem svoj tehnički repertoar."/><div className="skills-list">{skills.map((skill,index)=><SkillPill key={skill} name={skill} index={index}/>)}</div></section>}

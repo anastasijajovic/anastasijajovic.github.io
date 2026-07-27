@@ -1,0 +1,1 @@
+import {useEffect,useState} from 'react'; export default function PageProgress(){const[value,setValue]=useState(0);useEffect(()=>{const update=()=>setValue((scrollY/(document.body.scrollHeight-innerHeight))*100||0);addEventListener('scroll',update);update();return()=>removeEventListener('scroll',update)},[]);return <div className="progress" style={{width:value+'%'}}/>}

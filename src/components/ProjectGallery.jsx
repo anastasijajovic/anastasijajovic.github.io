@@ -1,0 +1,1 @@
+export default function ProjectGallery({images,title}){return <div className="project-gallery" aria-label={'Galerija projekta '+title}>{images.map(image=><a href={image.src} target="_blank" rel="noreferrer" key={image.alt}><img src={image.src} alt={image.alt}/><span>↗</span></a>)}</div>}
