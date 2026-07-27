@@ -10,4 +10,5 @@ import ScrollTop from './components/ScrollTop'
 import PageProgress from './components/PageProgress'
 import BackgroundGrid from './components/BackgroundGrid'
 
+
 export default function App() { return <><BackgroundGrid/><PageProgress/><Header/><main><Hero/><About/><Skills/><Projects/><Journey/><Contact/></main><Footer/><ScrollTop/></> }
